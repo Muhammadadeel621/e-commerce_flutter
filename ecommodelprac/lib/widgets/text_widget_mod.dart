@@ -12,7 +12,7 @@ class TextWidgett extends StatelessWidget {
       labelTitle,
       style: const TextStyle(
         fontWeight: FontWeight.bold,
-        color: AppColors.textFieldlabelText,
+        color: AppColors.bgColor,
         fontSize: 12,
         fontFamily: "assets/fonts/Poppins-Regular.ttf",
       ),

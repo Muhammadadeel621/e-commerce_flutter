@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:ecommodelprac/constants/colors.dart';
+// import 'package:ecommodelprac/constants/colors.dart';
 import 'package:ecommodelprac/pages/sign_up_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -22,9 +22,10 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: AppColors.homeExpdate,
-      body: Column(
+    return Scaffold(
+      // backgroundColor: AppColors.homeExpdate,
+      backgroundColor: Colors.grey.shade500,
+      body: const Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [

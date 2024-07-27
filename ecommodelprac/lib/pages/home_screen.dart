@@ -1,7 +1,7 @@
 import 'package:ecommodelprac/constants/colors.dart';
 import 'package:ecommodelprac/pages/settings.dart';
 import 'package:ecommodelprac/pages/top_brands_view_All.dart';
-import 'package:ecommodelprac/widgets/category_objects.dart';
+import 'package:ecommodelprac/widgets/category_objects_model.dart';
 import 'package:ecommodelprac/widgets/pricing_widget.dart';
 import 'package:ecommodelprac/widgets/spacer.dart';
 import 'package:ecommodelprac/widgets/text_widget.dart';
@@ -18,7 +18,8 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.homeExpdate,
+      // backgroundColor: AppColors.homeExpdate,
+      backgroundColor: Colors.grey.shade500,
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 15),
         child: SingleChildScrollView(

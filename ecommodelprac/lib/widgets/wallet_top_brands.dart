@@ -48,7 +48,7 @@ class TopBrandsWidget extends StatelessWidget {
             ),
           ),
           const Spacerr(
-            spWidth: 5,
+            spWidth: 10,
           ),
           Container(
             height: 150,
@@ -86,7 +86,7 @@ class TopBrandsWidget extends StatelessWidget {
             ),
           ),
           const Spacerr(
-            spWidth: 5,
+            spWidth: 10,
           ),
           Container(
             height: 150,
@@ -124,7 +124,7 @@ class TopBrandsWidget extends StatelessWidget {
             ),
           ),
           const Spacerr(
-            spWidth: 5,
+            spWidth: 10,
           ),
           Container(
             height: 150,
@@ -162,7 +162,7 @@ class TopBrandsWidget extends StatelessWidget {
             ),
           ),
           const Spacerr(
-            spWidth: 5,
+            spWidth: 10,
           ),
         ],
       ),

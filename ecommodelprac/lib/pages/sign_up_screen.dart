@@ -8,7 +8,6 @@ import 'package:ecommodelprac/widgets/text_widget.dart';
 import 'package:ecommodelprac/widgets/text_widget_mod.dart';
 import 'package:flutter/material.dart';
 
-
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
 
@@ -41,7 +40,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.homeExpdate,
+      backgroundColor: Colors.grey.shade500,
+      // backgroundColor: AppColors.homeExpdate,
       body: Form(
         key: _formkey,
         child: SingleChildScrollView(
@@ -228,7 +228,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         const TextWidget(
                           textt: "Already have an account.",
                           textSize: 14,
-                          textColor: AppColors.sstext,
+                          textColor: AppColors.bgColor,
                           fonttext: "assets/fonts/Poppins-Regular.ttf",
                         ),
                         InkWell(

@@ -16,9 +16,10 @@ class Settings extends StatefulWidget {
 class _SettingsState extends State<Settings> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: AppColors.homeExpdate,
-      body: Column(
+    return Scaffold(
+      backgroundColor: Colors.grey.shade500,
+      // backgroundColor: AppColors.homeExpdate,
+      body: const Column(
         children: [
           Spacerr(spHeight: 20),
           AppbarWidget(
@@ -38,7 +39,8 @@ class _SettingsState extends State<Settings> {
                     TextWidget(
                         textt: "General",
                         textSize: 14,
-                        textColor: AppColors.homeMenu,
+                        textColor: AppColors.bgColor,
+                        // textColor: AppColors.homeMenu,
                         fonttext: "assets/fonts/Regular.ttf"),
                   ],
                 ),
@@ -82,7 +84,8 @@ class _SettingsState extends State<Settings> {
                     TextWidget(
                         textt: "Security",
                         textSize: 14,
-                        textColor: AppColors.homeMenu,
+                        textColor: AppColors.bgColor,
+                        // textColor: AppColors.homeMenu,
                         fonttext: "assets/fonts/Regular.ttf"),
                   ],
                 ),

@@ -18,7 +18,8 @@ class _WalletScreenState extends State<WalletScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.homeExpdate,
+      // backgroundColor: AppColors.homeExpdate,
+      backgroundColor: Colors.grey.shade500,
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10),
         child: Column(
@@ -48,7 +49,7 @@ class _WalletScreenState extends State<WalletScreen> {
             const Spacerr(
               spHeight: 20,
             ),
-            const WalletcategoeryScreen(),
+            const WalletCategoryScreen(),
             const Spacerr(
               spHeight: 20,
             ),

@@ -52,7 +52,8 @@ class _loginScreenState extends State<loginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.homeExpdate,
+      // backgroundColor: AppColors.homeExpdate,
+      backgroundColor: Colors.grey.shade500,
       body: Form(
         key: _formkey,
         child: Column(
@@ -142,7 +143,7 @@ class _loginScreenState extends State<loginScreen> {
                       const TextWidget(
                         textt: "I'm a new user",
                         textSize: 14,
-                        textColor: AppColors.sstext,
+                        textColor: AppColors.bgColor,
                         fonttext: "assets/fonts/Poppins-Regular.ttf",
                       ),
                       const Spacerr(spWidth: 5),

@@ -15,7 +15,8 @@ class _CartScreenState extends State<CartScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.bootmNavColor,
+      // backgroundColor: AppColors.bootmNavColor,
+      backgroundColor: Colors.grey.shade500,
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 15),
         child: Column(
@@ -74,7 +75,7 @@ class _CartScreenState extends State<CartScreen> {
                       onPressed: () {},
                       icon: const Icon(
                         Icons.remove_circle_outline,
-                        color: AppColors.textColor,
+                        color: AppColors.bgColor,
                       )),
                   const TextWidget(
                     textt: "1",
@@ -86,7 +87,7 @@ class _CartScreenState extends State<CartScreen> {
                   IconButton(
                       onPressed: () {},
                       icon: const Icon(Icons.add_box_rounded,
-                          color: AppColors.textColor)),
+                          color: AppColors.bgColor)),
                   const Spacerr(
                     spWidth: 10,
                   ),
@@ -133,7 +134,7 @@ class _CartScreenState extends State<CartScreen> {
                       onPressed: () {},
                       icon: const Icon(
                         Icons.remove_circle_outline,
-                        color: AppColors.textColor,
+                        color: AppColors.bgColor,
                       )),
                   const TextWidget(
                     textt: "1",
@@ -144,8 +145,10 @@ class _CartScreenState extends State<CartScreen> {
                   ),
                   IconButton(
                       onPressed: () {},
-                      icon: const Icon(Icons.add_box_rounded,
-                          color: AppColors.textColor)),
+                      icon: const Icon(
+                        Icons.add_box_rounded,
+                        color: AppColors.bgColor,
+                      )),
                   const Spacerr(
                     spWidth: 10,
                   ),
@@ -192,7 +195,7 @@ class _CartScreenState extends State<CartScreen> {
                       onPressed: () {},
                       icon: const Icon(
                         Icons.remove_circle_outline,
-                        color: AppColors.textColor,
+                        color: AppColors.bgColor,
                       )),
                   const TextWidget(
                     textt: "1",
@@ -204,7 +207,7 @@ class _CartScreenState extends State<CartScreen> {
                   IconButton(
                       onPressed: () {},
                       icon: const Icon(Icons.add_box_rounded,
-                          color: AppColors.textColor)),
+                          color: AppColors.bgColor)),
                   const Spacerr(
                     spWidth: 10,
                   ),
@@ -251,7 +254,7 @@ class _CartScreenState extends State<CartScreen> {
                       onPressed: () {},
                       icon: const Icon(
                         Icons.remove_circle_outline,
-                        color: AppColors.textColor,
+                        color: AppColors.bgColor,
                       )),
                   const TextWidget(
                     textt: "1",
@@ -263,7 +266,7 @@ class _CartScreenState extends State<CartScreen> {
                   IconButton(
                       onPressed: () {},
                       icon: const Icon(Icons.add_box_rounded,
-                          color: AppColors.textColor)),
+                          color: AppColors.bgColor)),
                   const Spacerr(
                     spWidth: 10,
                   ),
@@ -310,7 +313,7 @@ class _CartScreenState extends State<CartScreen> {
                       onPressed: () {},
                       icon: const Icon(
                         Icons.remove_circle_outline,
-                        color: AppColors.textColor,
+                        color: AppColors.bgColor,
                       )),
                   const TextWidget(
                     textt: "1",
@@ -322,7 +325,7 @@ class _CartScreenState extends State<CartScreen> {
                   IconButton(
                       onPressed: () {},
                       icon: const Icon(Icons.add_box_rounded,
-                          color: AppColors.textColor)),
+                          color: AppColors.bgColor)),
                   const Spacerr(
                     spWidth: 10,
                   ),
